@@ -1,0 +1,830 @@
+
+/* =============================
+   SNEAKER VAULT
+   CINEMATIC PRODUCT INTRODUCTION
+============================= */
+
+.product-intro {
+    --intro-color: #614536;
+    --intro-x: 0px;
+    --intro-y: 0px;
+    --intro-light-x: 68%;
+    --intro-light-y: 45%;
+
+    position: relative;
+    isolation: isolate;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: calc(100svh - 81px);
+
+    padding: 25px 6% 35px;
+
+    background: #101010;
+
+    overflow: hidden;
+}
+
+
+/* =============================
+   CINEMATIC LIGHTING
+============================= */
+
+.intro-light {
+    position: absolute;
+    inset: 0;
+
+    z-index: -3;
+
+    pointer-events: none;
+
+    background: radial-gradient(
+        ellipse at var(--intro-light-x) var(--intro-light-y),
+        var(--intro-color) 0%,
+        #211b18 38%,
+        #101010 78%
+    );
+
+    opacity: 0.85;
+}
+
+.intro-light::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(16, 16, 16, 0.7) 100%
+    );
+}
+
+
+/* =============================
+   BACKGROUND TYPOGRAPHY
+============================= */
+
+.intro-background-text {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: -2;
+
+    font-family: var(--font-heading);
+    font-size: clamp(100px, 21vw, 340px);
+
+    font-weight: 700;
+    letter-spacing: -0.08em;
+
+    white-space: nowrap;
+
+    color: rgba(237, 233, 224, 0.035);
+
+    pointer-events: none;
+    user-select: none;
+}
+
+
+/* =============================
+   TOP NAVIGATION
+============================= */
+
+.intro-top {
+    position: relative;
+    z-index: 5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    font-family: var(--font-data);
+    font-size: 11px;
+
+    color: var(--secondary);
+}
+
+.intro-top a {
+    transition: color 0.3s ease;
+}
+
+.intro-top a:hover {
+    color: var(--text);
+}
+
+.intro-top #archive-reference {
+    color: var(--accent);
+    letter-spacing: 2px;
+}
+
+
+/* =============================
+   MAIN COMPOSITION
+============================= */
+
+.intro-composition {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 0.9fr)
+        minmax(0, 1.3fr);
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex: 1;
+
+    padding: 20px 0;
+}
+
+
+/* =============================
+   INTRODUCTION TEXT
+============================= */
+
+.intro-copy {
+    position: relative;
+
+    z-index: 4;
+
+    min-width: 0;
+
+    animation:
+        introTextEntrance 1.1s ease both;
+}
+
+.intro-copy .eyebrow {
+    margin-bottom: 25px;
+
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.intro-model {
+    font-family: var(--font-heading);
+
+    color: var(--secondary);
+
+    font-size: clamp(16px, 2vw, 25px);
+
+    margin-bottom: 12px;
+}
+
+.intro-copy h1 {
+    font-family: var(--font-heading);
+
+    font-size: clamp(52px, 6.5vw, 110px);
+
+    font-weight: 700;
+
+    line-height: 0.98;
+    letter-spacing: -0.065em;
+
+    color: var(--text);
+
+    overflow-wrap: anywhere;
+}
+
+.intro-divider {
+    width: 60px;
+    height: 1px;
+
+    margin: 30px 0;
+
+    background: var(--accent);
+}
+
+.intro-description {
+    max-width: 380px;
+
+    font-size: clamp(14px, 1.15vw, 17px);
+
+    line-height: 1.8;
+
+    color: var(--secondary);
+}
+
+.intro-edition {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    font-family: var(--font-data);
+
+    font-size: 9px;
+    letter-spacing: 3px;
+
+    color: var(--accent);
+}
+
+
+/* =============================
+   FLOATING PRODUCT STAGE
+============================= */
+
+.intro-stage {
+    position: relative;
+
+    min-width: 0;
+
+    height: clamp(
+        320px,
+        58svh,
+        660px
+    );
+
+    perspective: 1200px;
+}
+
+
+/* Ambient Halo */
+
+.intro-halo {
+    position: absolute;
+
+    top: 12%;
+    left: 15%;
+
+    width: 75%;
+    height: 75%;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        ellipse,
+        var(--intro-color),
+        transparent 70%
+    );
+
+    filter: blur(45px);
+
+    opacity: 0.6;
+
+    pointer-events: none;
+}
+
+
+/* Ground Shadow */
+
+.intro-ground-shadow {
+    position: absolute;
+
+    left: 15%;
+    bottom: 4%;
+
+    width: 75%;
+    height: 9%;
+
+    border-radius: 50%;
+
+    background: #000;
+
+    opacity: 0.6;
+
+    filter: blur(24px);
+
+    transform: scaleY(0.6);
+
+    pointer-events: none;
+}
+
+
+/* Independent Parallax Layer */
+
+.intro-art {
+    position: absolute;
+    inset: 0;
+
+    transform: translate3d(
+        var(--intro-x),
+        var(--intro-y),
+        0
+    );
+
+    transition: transform 0.65s ease-out;
+
+    pointer-events: none;
+}
+
+
+/* =============================
+   SNEAKER POSITIONING
+============================= */
+
+.intro-shoe {
+    position: absolute;
+
+    width: 90%;
+    height: 88%;
+
+    left: 5%;
+    top: 5%;
+
+    display: grid;
+    place-items: center;
+
+    pointer-events: none;
+
+    animation:
+        introFloat 6s ease-in-out infinite;
+}
+
+.intro-shoe img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    user-select: none;
+
+    filter: drop-shadow(
+        0 30px 22px rgba(0, 0, 0, 0.45)
+    );
+}
+
+
+/* Two-Sneaker Composition */
+
+.intro-art.is-pair .intro-shoe {
+    width: 72%;
+    height: 75%;
+}
+
+
+/* Rear Sneaker */
+
+.intro-art.is-pair .intro-shoe-back {
+    top: 20%;
+    left: -3%;
+
+    z-index: 1;
+
+    animation:
+        introFloatBack 7s ease-in-out infinite;
+}
+
+.intro-art.is-pair .intro-shoe-back img {
+    transform: rotate(38deg) scale(0.94);
+
+    filter:
+        brightness(0.87)
+        drop-shadow(
+            0 25px 20px rgba(0, 0, 0, 0.5)
+        );
+}
+
+
+/* Front Sneaker */
+
+.intro-art.is-pair .intro-shoe-front {
+    top: 3%;
+    left: 31%;
+
+    z-index: 2;
+
+    animation:
+        introFloat 6s ease-in-out infinite;
+}
+
+.intro-art.is-pair .intro-shoe-front img {
+    transform: rotate(-38deg);
+
+    filter: drop-shadow(
+        0 35px 30px rgba(0, 0, 0, 0.5)
+    );
+}
+
+
+/* Image Placeholder */
+
+.intro-image-message {
+    position: absolute;
+    inset: 0;
+
+    display: grid;
+    place-items: center;
+
+    font-family: var(--font-data);
+
+    font-size: 11px;
+    letter-spacing: 3px;
+
+    color: var(--secondary);
+
+    pointer-events: none;
+}
+
+
+/* =============================
+   BOTTOM NAVIGATION
+============================= */
+
+.intro-bottom {
+    position: relative;
+
+    z-index: 5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.intro-scroll-button {
+    display: inline-flex;
+
+    align-items: center;
+    gap: 15px;
+
+    font-family: var(--font-data);
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: var(--accent);
+}
+
+.intro-scroll-circle {
+    display: grid;
+    place-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+
+    font-size: 20px;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease;
+
+    animation:
+        introScrollPulse 2.8s ease-in-out infinite;
+}
+
+.intro-scroll-button:hover .intro-scroll-circle {
+    background: var(--accent);
+
+    color: var(--background);
+}
+
+.intro-counter {
+    font-family: var(--font-data);
+
+    color: var(--accent);
+
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+/* =============================
+   EXPLORATION SECTION
+============================= */
+
+.exploration-heading {
+    padding: 90px 6% 35px;
+
+    scroll-margin-top: 80px;
+
+    border-top: 1px solid var(--border);
+
+    background: var(--background);
+}
+
+.exploration-heading h2 {
+    font-size: clamp(42px, 5vw, 80px);
+
+    letter-spacing: -0.045em;
+
+    margin-bottom: 20px;
+}
+
+.exploration-description {
+    max-width: 520px;
+
+    font-size: 15px;
+
+    color: var(--secondary);
+}
+
+
+/* Preserve Gallery Layout */
+
+.experience-page .product-showcase {
+    min-height: auto;
+}
+
+.experience-page .product-information #product-name {
+    font-family: var(--font-heading);
+
+    font-size: clamp(42px, 5vw, 88px);
+
+    color: var(--text);
+
+    letter-spacing: -0.045em;
+
+    margin-bottom: 12px;
+}
+
+.experience-page #product-colorway {
+    font-family: var(--font-heading);
+
+    font-size: clamp(20px, 2vw, 30px);
+    font-weight: 600;
+
+    color: var(--accent);
+
+    margin-bottom: 22px;
+}
+
+
+/* =============================
+   ANIMATION KEYFRAMES
+============================= */
+
+@keyframes introTextEntrance {
+
+    from {
+        opacity: 0;
+
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes introFloat {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-18px);
+    }
+}
+
+
+@keyframes introFloatBack {
+
+    0%, 100% {
+        transform: translateY(-8px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+@keyframes introScrollPulse {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+
+/* =============================
+   TABLETS
+============================= */
+
+@media (max-width: 1024px) {
+
+    .product-intro {
+        padding-inline: 5%;
+    }
+
+    .intro-copy h1 {
+        font-size: clamp(48px, 7vw, 80px);
+    }
+
+    .intro-composition {
+        gap: 10px;
+    }
+
+    .intro-stage {
+        height: clamp(
+            300px,
+            48vw,
+            480px
+        );
+    }
+}
+
+
+/* =============================
+   MOBILE EXPERIENCE
+============================= */
+
+@media (max-width: 768px) {
+
+    .product-intro {
+        min-height: calc(100svh - 65px);
+
+        padding: 20px 5% 30px;
+    }
+
+    .intro-top {
+        font-size: 9px;
+        gap: 10px;
+    }
+
+    .intro-top #archive-reference {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+
+    .intro-composition {
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 5px;
+
+        padding: 35px 0 15px;
+    }
+
+    .intro-copy {
+        text-align: center;
+    }
+
+    .intro-copy .eyebrow {
+        margin-bottom: 15px;
+
+        font-size: 9px;
+    }
+
+    .intro-model {
+        font-size: 16px;
+
+        margin-bottom: 10px;
+    }
+
+    .intro-copy h1 {
+        font-size: clamp(
+            42px,
+            11vw,
+            70px
+        );
+
+        line-height: 1;
+    }
+
+    .intro-divider {
+        margin: 20px auto;
+        width: 40px;
+    }
+
+    .intro-description {
+        margin: auto;
+
+        max-width: 360px;
+
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .intro-edition {
+        display: none;
+    }
+
+    .intro-stage {
+        height: clamp(
+            270px,
+            72vw,
+            420px
+        );
+    }
+
+    .intro-art.is-pair .intro-shoe-back {
+        left: 0%;
+        top: 17%;
+    }
+
+    .intro-art.is-pair .intro-shoe-front {
+        left: 28%;
+        top: 0%;
+    }
+
+    .intro-art.is-pair .intro-shoe-back img {
+        transform: rotate(34deg) scale(0.92);
+    }
+
+    .intro-art.is-pair .intro-shoe-front img {
+        transform: rotate(-34deg);
+    }
+
+    .intro-background-text {
+        top: 65%;
+
+        font-size: 24vw;
+    }
+
+    .intro-halo {
+        opacity: 0.8;
+    }
+
+    .intro-scroll-button {
+        font-size: 9px;
+
+        gap: 10px;
+        letter-spacing: 1px;
+    }
+
+    .intro-scroll-circle {
+        width: 38px;
+        height: 38px;
+    }
+
+    .intro-counter {
+        font-size: 10px;
+    }
+
+    .exploration-heading {
+        padding: 60px 5% 25px;
+
+        scroll-margin-top: 65px;
+    }
+
+    .exploration-heading h2 {
+        font-size: 42px;
+    }
+
+    .experience-page .product-information #product-name {
+        font-size: 45px;
+    }
+
+    .experience-page #product-colorway {
+        font-size: 23px;
+    }
+}
+
+
+/* =============================
+   SMALL MOBILE DEVICES
+============================= */
+
+@media (max-width: 420px) {
+
+    .intro-stage {
+        height: 280px;
+    }
+
+    .intro-copy h1 {
+        font-size: 46px;
+    }
+
+    .intro-scroll-button {
+        letter-spacing: 0.5px;
+    }
+}
+
+
+/* =============================
+   ACCESSIBILITY
+============================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .intro-art {
+        transform: none !important;
+
+        transition: none !important;
+    }
+
+    .intro-copy,
+    .intro-shoe,
+    .intro-scroll-circle {
+        animation: none !important;
+    }
+}
