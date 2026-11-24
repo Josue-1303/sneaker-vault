@@ -1,0 +1,595 @@
+
+[
+    {
+        "id": "nike-blue-void",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Blue Void / Summit White",
+        "theme": "#253549",
+        "image": "assets/images/nike/blue-void.webp",
+        "cinematicImage": "assets/images/nike/blue-void-cinematic.webp",
+        "introBackImage": "assets/images/nike/blue-void-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/blue-void.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/blue-void-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/blue-void-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/blue-void-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/blue-void-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/blue-void-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/nike/blue-void-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "A refined interpretation of the classic Dunk Low, combining Summit White tones, deep Blue Void accents and distinctive blue stitching. Woven textures and an aged cream midsole create a balance between vintage character and contemporary streetwear.",
+        "materials": "Woven textile panels, suede-textured Swoosh and leather-look overlays",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "nike-baroque-brown",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Baroque Brown",
+        "theme": "#614536",
+        "image": "assets/images/nike/baroque-brown.webp",
+        "cinematicImage": "assets/images/nike/baroque-brown-cinematic.webp",
+        "introBackImage": "assets/images/nike/baroque-brown-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/baroque-brown.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/baroque-brown-heel-detail.webp",
+                "label": "Heel Detail"
+            }
+        ],
+        "description": "A timeless silhouette defined by rich Baroque Brown tones, contrasting ivory panels and refined textures. A balance between vintage basketball heritage and contemporary streetwear.",
+        "materials": "Suede and leather-look panels",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "nike-gorge-green",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Gorge Green / Summit White",
+        "theme": "#294b3c",
+        "image": "assets/images/nike/gorge-green.webp",
+        "cinematicImage": "assets/images/nike/gorge-green-cinematic.webp",
+        "introBackImage": "assets/images/nike/gorge-green-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/gorge-green.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/nike/gorge-green-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "Deep forest-green suede meets clean Summit White panels in a refined interpretation of the iconic Dunk Low. A cream midsole and a distinctive metallic gold mini Swoosh bring an understated luxury to its classic basketball silhouette.",
+        "materials": "Green suede overlays, white leather panels, metallic gold mini Swoosh and rubber outsole",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "nike-light-khaki",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Light Khaki",
+        "theme": "#9b8e71",
+        "image": "assets/images/nike/light-khaki.webp",
+        "cinematicImage": "assets/images/nike/light-khaki-cinematic.webp",
+        "introBackImage": "assets/images/nike/light-khaki-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/light-khaki.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/nike/light-khaki-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "An understated expression of the Dunk Low silhouette, combining earthy khaki suede, soft cream panels and a contrasting white Swoosh. A gum-colored outsole completes its warm and timeless aesthetic.",
+        "materials": "Khaki suede overlays, cream leather-look panels, white Swoosh and gum rubber outsole",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "nike-jade-horizon",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Jade Horizon",
+        "theme": "#788b78",
+        "image": "assets/images/nike/jade-horizon.webp",
+        "cinematicImage": "assets/images/nike/jade-horizon-cinematic.webp",
+        "introBackImage": "assets/images/nike/jade-horizon-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/jade-horizon.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/nike/jade-horizon-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "Inspired by natural mineral tones, Jade Horizon combines deep green suede with soft mint panels and a contrasting black Swoosh. Its layered green palette gives the classic Dunk Low a distinct and contemporary identity.",
+        "materials": "Green suede overlays, mint leather-look panels, black Swoosh and dark rubber outsole",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "nike-hydrogen-blue",
+        "brand": "Nike",
+        "model": "Dunk Low",
+        "colorway": "Hydrogen Blue",
+        "theme": "#a0bccb",
+        "image": "assets/images/nike/hydrogen-blue.webp",
+        "cinematicImage": "assets/images/nike/hydrogen-blue-cinematic.webp",
+        "introBackImage": "assets/images/nike/hydrogen-blue-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/nike/hydrogen-blue.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/nike/hydrogen-blue-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "A fresh interpretation of the classic Dunk Low, defined by a delicate Hydrogen Blue palette. Its cool visual identity brings a lighter and more understated character to the archive.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-night-indigo",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Night Indigo",
+        "theme": "#292d48",
+        "image": "assets/images/adidas/night-indigo.webp",
+        "cinematicImage": "assets/images/adidas/night-indigo-cinematic.webp",
+        "introBackImage": "assets/images/adidas/night-indigo-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/night-indigo.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/night-indigo-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "A deep midnight-blue interpretation of the Campus 00s. Its distinctive proportions combine retro skate-inspired character with the understated elegance of the Night Indigo palette.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-wonder-cargo",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Wonder Cargo",
+        "theme": "#6d715c",
+        "image": "assets/images/adidas/wonder-cargo.webp",
+        "cinematicImage": "assets/images/adidas/wonder-cargo-cinematic.webp",
+        "introBackImage": "assets/images/adidas/wonder-cargo-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/wonder-cargo.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/wonder-cargo-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "Earthy olive tones meet the distinctive proportions of the Campus 00s. Wonder Cargo offers a muted, versatile aesthetic inspired by natural colors and contemporary streetwear.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-legacy-burgundy",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Legacy Burgundy",
+        "theme": "#632b3b",
+        "image": "assets/images/adidas/legacy-burgundy.webp",
+        "cinematicImage": "assets/images/adidas/legacy-burgundy-cinematic.webp",
+        "introBackImage": "assets/images/adidas/legacy-burgundy-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/legacy-burgundy.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/legacy-burgundy-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "Rich burgundy tones bring a bold yet refined character to the Campus 00s. A colorway that balances vintage sportswear inspiration with a distinctive contemporary identity.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-dark-green",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Dark Green",
+        "theme": "#244534",
+        "image": "assets/images/adidas/dark-green.webp",
+        "cinematicImage": "assets/images/adidas/dark-green-cinematic.webp",
+        "introBackImage": "assets/images/adidas/dark-green-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/dark-green.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/dark-green-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "A timeless dark-green palette gives the Campus 00s a grounded and sophisticated appearance. Its retro-inspired silhouette creates a strong identity within the Sneaker Vault archive.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-cream-white",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Cream White",
+        "theme": "#d4cbb8",
+        "image": "assets/images/adidas/cream-white.webp",
+        "cinematicImage": "assets/images/adidas/cream-white-cinematic.webp",
+        "introBackImage": "assets/images/adidas/cream-white-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/cream-white.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/cream-white-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "A soft cream-white palette brings a minimalist character to the Campus 00s. Its neutral tones emphasize the silhouette and create a clean, understated visual identity.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    },
+    {
+        "id": "adidas-aurora-coffee",
+        "brand": "Adidas",
+        "model": "Campus 00s",
+        "colorway": "Aurora Coffee",
+        "theme": "#594033",
+        "image": "assets/images/adidas/aurora-coffee.webp",
+        "cinematicImage": "assets/images/adidas/aurora-coffee-cinematic.webp",
+        "introBackImage": "assets/images/adidas/aurora-coffee-side-alternative.webp",
+        "gallery": [
+            {
+                "src": "assets/images/adidas/aurora-coffee.webp",
+                "label": "Side Profile"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-perspective.webp",
+                "label": "Perspective"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-rear.webp",
+                "label": "Rear View"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-top.webp",
+                "label": "Top View"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-detail.webp",
+                "label": "Material Detail"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-side-alternative.webp",
+                "label": "Alternative Profile"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-heel-detail.webp",
+                "label": "Heel Detail"
+            },
+            {
+                "src": "assets/images/adidas/aurora-coffee-outsole.webp",
+                "label": "Outsole"
+            }
+        ],
+        "description": "Warm coffee-inspired tones define this interpretation of the Campus 00s. Its rich earthy palette complements the retro silhouette and completes the collection with a refined visual character.",
+        "materials": "Not yet verified",
+        "targetSize": 38,
+        "maxBudget": 150,
+        "status": "Watching",
+        "price": null
+    }
+]

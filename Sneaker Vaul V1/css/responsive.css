@@ -1,0 +1,302 @@
+
+/* =========================
+   SNEAKER VAULT V1
+   RESPONSIVE DESIGN
+========================= */
+
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 1024px) {
+
+    .hero-content h1 {
+        font-size: 65px;
+        letter-spacing: -3px;
+    }
+
+    .featured-grid,
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .product-showcase {
+        gap: 30px;
+    }
+
+    .specifications-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .thumbnail-button {
+        width: 65px;
+        height: 55px;
+    }
+}
+
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media (max-width: 768px) {
+
+    /* Navigation */
+
+    .navbar {
+        min-height: 65px;
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 16px;
+        letter-spacing: 2px;
+        gap: 8px;
+    }
+
+    .brand-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--background);
+        flex-direction: column;
+        padding: 30px 5%;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: calc(100svh - 65px);
+        gap: 20px;
+        padding: 50px 5% 70px;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(44px, 10vw, 65px);
+        letter-spacing: -2px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-background span {
+        font-size: 23vw;
+        letter-spacing: -4px;
+    }
+
+    .hero-product {
+        min-height: 240px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-details {
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+
+    /* General Sections */
+
+    .collection-preview,
+    .collection-section,
+    .about,
+    .product-specifications,
+    .availability-section {
+        padding: 60px 5%;
+    }
+
+    .collection-header {
+        padding: 60px 5% 35px;
+    }
+
+
+    /* Product Cards */
+
+    .featured-grid,
+    .product-grid {
+        gap: 15px;
+    }
+
+    .product-card-info {
+        padding: 15px;
+    }
+
+    .product-card-info h3 {
+        font-size: 18px;
+    }
+
+    .product-card-image {
+        padding: 12px;
+    }
+
+    .product-card-bottom {
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+
+
+    /* Collection Controls */
+
+    .collection-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    .brand-filters {
+        margin-right: 0;
+    }
+
+    .status-filter,
+    .sort-controls {
+        justify-content: space-between;
+    }
+
+
+    /* Statistics */
+
+    .collection-stats {
+        padding: 40px 5%;
+        gap: 10px;
+    }
+
+    .stat p {
+        font-size: 11px;
+    }
+
+
+    /* Product Page */
+
+    .product-showcase {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 30px 5%;
+    }
+
+    .product-information h1 {
+        font-size: 45px;
+    }
+
+    .product-navigation {
+        padding: 30px 5%;
+    }
+
+    .product-navigation button {
+        padding: 10px;
+        font-size: 11px;
+    }
+
+    .specification {
+        padding: 15px;
+    }
+
+
+    /* Interactive Gallery */
+
+    .product-gallery {
+        gap: 15px;
+        min-height: auto;
+    }
+
+    #product-image {
+        padding: 5px;
+    }
+
+    .product-thumbnails {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 8px 2px 12px;
+
+        scrollbar-width: thin;
+        scrollbar-color: var(--accent) transparent;
+    }
+
+    .thumbnail-button {
+        flex-shrink: 0;
+        width: 65px;
+        height: 55px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 35px 5%;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE DEVICES
+========================= */
+
+@media (max-width: 420px) {
+
+    .featured-grid,
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card-image {
+        padding: 25px;
+    }
+
+    .specifications-grid {
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .brand-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .eyebrow {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .thumbnail-button {
+        width: 58px;
+        height: 48px;
+    }
+
+    .product-thumbnails {
+        gap: 8px;
+    }
+}
